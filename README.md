@@ -13,13 +13,6 @@ about errors that occur.
 **Best Setup:**
 Copy and paste this bad boy:
 
-
-===================================
-
-from timelib import *              <--------- Run alone, or with any other imports you need...
-
-===================================
-
 ===================================
 
 from timelib import *
@@ -27,8 +20,7 @@ from timelib import *
       try:
           s = tl.start() 
 
-          *your code*              <--------- ...Then add our library's functions and your code!
-
+          *your code*                
           tl.send_frame_end()
       
       except Exception as e:
