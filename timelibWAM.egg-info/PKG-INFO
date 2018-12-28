@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: timelibWAM
-Version: 0.0.2
-Summary: A library made to inform about run time
+Version: 0.0.3
+Summary: A library made to alert users about program completion
 Home-page: https://github.com/theWAM/timelib.git
 Author: Woody Allen Montilus
 Author-email: thewamcoding@gmail.com
@@ -57,7 +57,7 @@ Description: # timelibWAM
           If you'd like to be alerted in the case of error, steps 2-4 should be within a try statement
           followed by an except statement that runs one of our error functions (frame_alert() or error_alert())
         
-        **Best Setup:**
+        **Best Setup -**
         Copy and paste this bad boy for text and frame alerts:
         
             from timelibWAM import *
@@ -74,6 +74,7 @@ Description: # timelibWAM
                 tl.error_alert()
         
         We know that there are plenty of things to be improved upon, so please let us know, or better yet, join in to create a better experience!
+        
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
