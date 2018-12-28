@@ -20,8 +20,9 @@ from timelib import *
       try:
           s = tl.start() 
 
-          *your code*                
-          tl.send_frame_end()
+          *your code*
+          
+          tl.send_frame_end(s)
       
       except Exception as e:
           tl.error_alert()
