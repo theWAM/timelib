@@ -64,3 +64,5 @@ Copy and paste this bad boy for text and frame alerts:
       except Exception as e:
         
         tl.error_alert()
+
+We know that there are plenty of things to be improved upon, so please let us know, or better yet, join in to create a better experience!
