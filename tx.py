@@ -33,7 +33,7 @@ class mail_ready():
             print("Writing contact document...")
 
             # Creating and writing entry material in txt file
-            f = open("timelibContactDocument.txt","w+")
+            f = open("timelibContactDoc.txt","w+")
             f.write(self.to)
             f.close()
 
