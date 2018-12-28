@@ -1,4 +1,4 @@
-# TimeLib
+# timelib
 
 timelib is a library meant to alert the user about the 
 completion of a program. This can work best with larger
