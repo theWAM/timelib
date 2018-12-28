@@ -1,4 +1,4 @@
-# timelib Functions        12.26.18                                      =
+# timelibWAM Functions        12.26.18                                      =
 # © Woody Allen Montilus 2018                                            =
 #                                                                        =
 # ========================================================================
@@ -9,7 +9,7 @@ import smtplib
 import imaplib
 import time as t
 import tkinter as tk
-from timelib import tx
+from timelibWAM import tx
 from tkinter import ttk
 from pathlib import Path    
 from email.mime.text import MIMEText
