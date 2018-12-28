@@ -52,18 +52,15 @@ Copy into terminal/command prompt:
 **Best Setup:**
 Copy and paste this bad boy for text and frame alerts:
 
-===================================
-
-from timelibWAM import *
+    from timelibWAM import *
 
       try:
-          s = tl.start() 
+        s = tl.start() 
 
-          *your code*
+        *your code*
           
-          tl.send_frame_end(s)
+        tl.send_frame_end(s)
       
       except Exception as e:
-          tl.error_alert()
-
-===================================
+        
+        tl.error_alert()
