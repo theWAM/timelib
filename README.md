@@ -49,7 +49,7 @@ Copy into terminal/command prompt:
   If you'd like to be alerted in the case of error, steps 2-4 should be within a try statement
   followed by an except statement that runs one of our error functions (frame_alert() or error_alert())
 
-**Best Setup-**
+**Best Setup -**
 Copy and paste this bad boy for text and frame alerts:
 
     from timelibWAM import *
