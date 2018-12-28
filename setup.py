@@ -4,7 +4,7 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 setuptools.setup(
-    name = "timelib",
+    name = "timelibWAM",
     version = "0.0.1",
     author = "Woody Allen Montilus",
     author_email = "thewamcoding@gmail.com",

@@ -1,0 +1,6 @@
+README.md
+setup.py
+timelibWAM.egg-info/PKG-INFO
+timelibWAM.egg-info/SOURCES.txt
+timelibWAM.egg-info/dependency_links.txt
+timelibWAM.egg-info/top_level.txt

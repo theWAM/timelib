@@ -1,6 +1,6 @@
-# timelib
+# timelibWAM
 
-timelib is a library meant to alert the user about the 
+timelibWAM is a library meant to alert the user about the 
 completion of a program. This can work best with larger
 projects in which may take longer periods of time to 
 finish running. The package can also alert the user
@@ -15,7 +15,7 @@ Copy and paste this bad boy:
 
 ===================================
 
-from timelib import *
+from timelibWAM import *
 
       try:
           s = tl.start() 

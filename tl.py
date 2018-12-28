@@ -18,7 +18,7 @@ from email.mime.multipart import MIMEMultipart
 # = Best Setup ======================
 # Copy and paste this bad boy:
 #
-# from timelib import *
+# from timelibWAM import *
 #
 #       try:
 #           s = tl.start() 
@@ -36,7 +36,7 @@ from email.mime.multipart import MIMEMultipart
 # ===================================
 # Begins run timer
 #
-# After importing timelib, use this function to start the timer
+# After importing timelibWAM, use this function to start the timer
 # save the time returned in a variable, like s:
 #
 #           s = tl.start()
@@ -327,7 +327,7 @@ def click_cancel():
     self.destroy()
     quit()
 
-# When enter is pressed, mail_ready from timelibx is run
+# When enter is pressed, mail_ready from timelibex is run
 def send_request(event):
 
     print("Making send request...")
