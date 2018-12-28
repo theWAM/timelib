@@ -1,6 +1,6 @@
 # timelibWAM
 
-timelibWAM is a library meant to alert the user about the 
+timelibWAM is an open source package meant to alert the user about the 
 completion of a program. This can work best with larger
 projects in which may take longer periods of time to 
 finish running. The package can also alert the user
